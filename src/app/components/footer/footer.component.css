@@ -1,0 +1,22 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  background-color: hsl(209, 53%, 51%);
+  height: 25px;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
