@@ -1,0 +1,32 @@
+img {
+  border-radius: 10px;
+  width: 100%;
+  height: 500px;
+}
+
+.home-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  background-color: hsl(41, 54%, 49%);
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button:hover {
+  box-shadow: 0 8px 10px 0 rgba(255, 255, 255, 0.24),0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
