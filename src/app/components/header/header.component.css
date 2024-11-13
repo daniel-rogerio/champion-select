@@ -4,8 +4,9 @@ header {
 }
 
 .header {
-  background-color: hsl(209, 53%, 51%);
-  color: hsl(0, 0%, 100%);
+  background-color: hsl(190, 93%, 17%);
+  color: hsl(41, 54%, 49%);
+  border: 2px solid hsl(41, 54%, 49%);
   border-radius: 10px;
 }
 
@@ -18,5 +19,5 @@ header {
 }
 
 a {
-  color: hsl(0, 0%, 100%);
+  color: hsl(41, 54%, 49%);
 }
