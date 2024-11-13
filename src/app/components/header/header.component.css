@@ -1,0 +1,22 @@
+header {
+  width: 100%;
+  padding: 2px;
+}
+
+.header {
+  background-color: hsl(209, 53%, 51%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+.logo-name {
+  font-size: x-large;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+}
