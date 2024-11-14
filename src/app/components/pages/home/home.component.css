@@ -1,30 +1,33 @@
 img {
   border-radius: 10px;
   width: 100%;
-  height: 500px;
+  height: 100%;
 }
 
 .home-container {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
 .section {
+  position: absolute;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   height: 100%;
+  margin-bottom: 20px;
 }
 
 button {
-  width: 200px;
+  width: 300px;
   height: 100px;
   background-color: hsl(41, 54%, 49%);
-  border: none;
+  border: 2px solid hsl(201, 100%, 5%);
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 button:hover {
