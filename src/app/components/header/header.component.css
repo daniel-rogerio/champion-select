@@ -21,3 +21,7 @@ header {
 a {
   color: hsl(41, 54%, 49%);
 }
+
+a:hover {
+  color: hsl(203, 100%, 6%);
+}
