@@ -1,0 +1,22 @@
+<p>card-champion works!</p>
+
+<div class="container" *ngFor="let champion of championsData">
+    <!-- <ul>
+        <li *ngFor="let champion of championsData">
+            <span>{{ champion.id }}</span>
+            <span><img [src]="'https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/' + champion.image.full"></span>
+            Imagem: <img [src]="'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/' + champion.id + '_0.jpg'">
+        </li>
+    </ul> -->
+    <div class="champion-icon">
+        <img [src]="'https://ddragon.leagueoflegends.com/cdn/14.22.1/img/champion/' + champion.image.full"/>
+    </div>
+    <div class="champion-details">
+        <div class="champion-name">
+            <p>{{ champion.id }}</p>
+        </div>
+        <div class="champion-title">
+            <p>{{ champion.title | titlecase }}</p>
+        </div>
+    </div>
+</div>
