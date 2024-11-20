@@ -1,6 +1,11 @@
 import { Routes } from '@angular/router';
-import { ChampionComponent } from './modules/components/champion/champion.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { AboutComponent } from './components/pages/about/about.component';
+import { ChampionsComponent } from './components/pages/champions/champions.component';
 
 export const routes: Routes = [
-    {path: 'champion', component: ChampionComponent}
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: 'home', component: HomeComponent},
+  {path: 'about', component: AboutComponent},
+  {path: 'champions', component: ChampionsComponent}
 ];

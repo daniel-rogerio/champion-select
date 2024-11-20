@@ -1,0 +1,12 @@
+main {
+  width: 95%;
+  height: calc(100vh - 100px);
+  padding-top: 5px;
+  margin: auto;
+}
+
+.container {
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid hsl(41, 54%, 49%);
+}
