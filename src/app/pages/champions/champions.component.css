@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
+.champion-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Estilizando a barra de rolagem */
+/* Largura e cor da barra */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    background-color: hsl(200, 100%, 10%);
+}
+  
+/* Estilo do botão de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: hsl(41, 54%, 49%);
+    border-radius: 5px;
+}
