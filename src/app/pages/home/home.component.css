@@ -7,7 +7,7 @@ img {
 .background {
   width: 100%;
   height: 100%;
-  background-image: url("../../../assets/home-page/group-baronfight-splash.jpg");
+  background-image: url("../../assets/home-page/group-baronfight-splash.jpg");
   background-size: cover;
   border-radius: 10px;
 }
