@@ -1,8 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ChampionListService } from '../../../services/champion-list.service';
-import { ChampionData } from '../../../models/interfaces/ChampionData';
+import { ChampionListService } from '../../services/champion-list.service';
+import { ChampionData } from '../../models/interfaces/ChampionData';
 import { Subject, takeUntil } from 'rxjs';
-import { CardChampionComponent } from '../../card-champion/card-champion.component';
+import { CardChampionComponent } from '../../components/card-champion/card-champion.component';
 
 
 @Component({
